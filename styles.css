@@ -1,0 +1,81 @@
+body{
+    background-color: white;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+#logo > img{
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    height: auto;
+}
+#front-image{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+#front-image > img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#front-image > h1{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 80px;
+    font-weight: lighter;
+    color: white;
+}
+#front-image > #line{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    height: 2px;
+    width: 150px;
+    background-color: white;
+}
+#front-image > p{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: white;
+    font-size: 35px;
+}
+#contents-page{
+    background-color: lightgrey;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#contents-page > #contents-list{
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+#contents-page > #contents-list > #contents-table > .info{
+    font-size: 40px;
+    font-weight: lighter;
+}
+#contents-page > #contents-list > #contents-table > h2{
+    font-size: 35px;
+}
+#contents-page > #contents-list > #contents-table > #line2{
+    height: 5px;
+    width: 750px;
+    background-color: black;
+}
+#contents-page > #about-book{
+    padding-right: 30px;
+    padding-top: 10px;
+}
